@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Piedra&family=Righteous&display=swap');
+body{
+  background-color: #18D196;
+  overflow-x: hidden;
+  margin:0;
+}
+#log2{
+  width: 30%;
+  float: left;
+  margin-top: 20%;
+}
+
+#logon{
+  width: 15%;
+  margin-left:  3%;
+  float: left;
+}
+header{
+  margin: 0%;
+  width: 100%;
+  height: 5vw;
+  background-color: rgba(51, 60, 56,.9);
+  position: fixed;
+}
+#btn-menu{
+  display: none;
+}
+#img-menu{
+  width: 2.5vw;
+}
+header label{
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+header label:hover{
+cursor: pointer;
+}
+header p{
+  color: #fff;
+  font-size: 2vw;
+  float: right;
+  margin-top: 1%;
+  margin-right: 5%;
+  margin-left: 40%;
+}
+.menu ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2vw;
+}
+.menu li a {
+  display: block;
+  padding: 1vw 1vw;
+  color: #fff;
+  margin-top: 4%;
+  text-shadow: 1px 1px 1px 0 #fff;
+  margin-left: 50%;
+}
+
+.slider{
+  background-image: url("dg2.jpg");
+  background-position: 35% 10%;
+  background-size: 100%;
+  width: 100%;
+  height: 35vw;;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0);
+  transition: 1s;
+  background-color: rgba(15,15,15,0);
+  background-blend-mode: soft-light;
+}
+.slider:hover{
+  background-color: rgb(15,15,15);
+  background-blend-mode: soft-light;
+  color: rgba(255,255,255, 1);
+  transition: 1.5s;
+}
+.area1{
+  background-color: white;
+  width: 80%;
+  box-shadow: 3px 3px 15px 3px black;
+  border-radius: 15px;
+  margin-top: 40%;
+  transition: .5s;
+}
+.area1:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: .5s;
+}
+
+footer{
+  width: 100%;
+  background-color: rgb(232,232,232);
+  border-top: 5px;
+  border-color: black;
+  box-shadow: 3px 3px 15px 3px black;
+  float: left;
+}
+.fot1{
+  width: 60%;
+  border-bottom: 1px solid black;
+}
+.logoF{
+  width: 10%;
+}
+.redes{
+  display: flex;
+  text-align: left;
+}
+#description{
+  margin-left: 2%;
+  margin-right: 2%;
+  display:  flex;
+  text-align: left;
+  font-size: 1.3vw;
+}
+.contenedor{
+  background-color: white;
+  width: 35%;
+  height: auto;
+  border-radius: 15px;
+  float: left;
+  margin: 2%;
+  box-shadow: 3px 3px 15px 3px black;
+}
+.contenedor:hover{
+/*background-color: rgb(232,232,232);*/
+transition: 1s;
+  box-shadow: 0px 0px 0px 0px black;
+}
+.mv{
+margin-left: 18%;
+}
+.txtC{
+  font-size: 1.2vw;
+  margin: 2%;
+}
+.mivi{
+  width: 30%;
+  margin-bottom: 3%;
+}
+.services{
+  background-image: url("oficina.jpg");
+  background-position: center;
+  background-attachment: scroll;
+  height: 20vw;
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(20,20,20);
+  background-blend-mode: soft-light;
+  font-size: 5vw;
+  color: white;
+  text-shadow: 2px 2px 5px 1px rgb(240,240,240);
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+.cl{
+    margin-top: -20%;
+}
+h4{
+  font-size: 5vw;
+  transition: 1s;
+}
+h4:hover{
+  color: #18D196;
+  transition: 2s;
+}
+.pizzarra{
+  background-image: url("pizarra2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100vw;
+  float: left;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-shadow: 3px 3px 15px 3px black;
+
+}
+.note1{
+  background-image: url("note1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 21%;
+  position: static;
+  height: 20vw;
+  float: left;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+.note2{
+  background-image: url("note2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 20%;
+  position: static;
+  height: 20vw;
+  float: left;
+  margin-left: 5%;
+  margin-top: 13%;
+}
+.note3{
+  background-image: url("note3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 20%;
+  position: static;
+  height: 20vw;
+  float: left;
+  margin-left: 6%;
+  margin-top: 10%;
+}
+.note4{
+  background-image: url("note1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 20%;
+  position: static;
+  float: left;
+  height: 20vw;
+  margin-left: 13%;
+  margin-top: 5%;
+}
+.note5{
+  background-image: url("note2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 20%;
+  position: static;
+  height: 20vw;
+  float: left;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+.note6{
+  background-image: url("note3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 20%;
+  position: static;
+  height: 20vw;
+  float: left;
+  margin-left: 8%;
+  margin-top: 4%;
+}
+.txtnxex{
+  margin-left: 7.9%;
+  font-size: 1.2vw;
+}
+.txtnotes{
+margin-top: 6%;
+font-size: 2vw;
+margin-left: 7%;
+}
+.af{
+  color:black;
+}
+.linkn{
+color: rgba(100, 0, 0, 0);
+margin-left: 5%;
+}
+h2{
+  font-size: 4vw;
+}
+.nup{
+float: left;
+width: 100%;
+}
+.ndown{
+float: left;
+width: 100%;
+}
+#mapa{
+  width:25vw;
+  height:25vw;
+}
+a:hover{
+  color:black;
+}
+#btns{
+  color: #fff;
+  background-color: rgb(5,5,5,0.5);
+  border-radius: 10px;
+  border: none;
+  font-size: 50%;
+  transition: 1s;
+}
+#btns:hover{
+  color: #18D196;
+  background-color: rgb(5,5,5,0.5);
+  border-radius: 10px;
+  border: 1px solid #18D196;
+  transition: 1s;
+}
+#video1{
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px 3px black;
+}
+.contacto{
+  display: inline-block;
+  width: 80%;
+  background-color: #fff;
+  margin-bottom: 5%;
+  float: left;
+  margin-left: 10%;
+  box-shadow: 3px 3px 15px 3px black;
+  border-radius: 15px;
+}
+label{
+font-size: 1.5vw;
+}
+h3{
+  margin-top: 1%;
+  font-size: 2.5vw;
+  border-bottom: 1px 5% solid black;
+}
+.txtcont{
+  width: 80%;
+  text-align: center;
+}
+#btncont{
+border-radius: 5px;
+padding: 1%;
+font-size: 1.7vw;
+background-color: #18D196;
+color: #fff;
+border: 1px solid #fff;
+transition: 1s;
+}
+#btncont:hover{
+background-color: #fff;
+color: #18D196;
+border: 1px solid #18D196;
+transition: 1s;
+}
+
+
+@media (max-width:800px){
+  header label{
+    display: block;
+    margin-left: 4%;
+  }
+  header{
+   height: 9vw;
+  }
+  .menu {
+    position: absolute;
+    background-color: rgba(51, 60, 56,.9);
+    width: 70%;
+    margin-left: -70%;
+    transition: all 1s;
+  }
+  .menu ul{
+    flex-direction: column;
+  }
+  .menu li{
+    border-top:  1px solid #000;
+  }
+  #btn-menu:checked ~ .menu{
+    margin: 0%;
+    margin-top: 2%;
+  }
+  .menu{
+    margin-top: 2%;
+  }
+  #img-menu{
+    width: 4vw;
+  }
+  header p{
+    color: #fff;
+    font-size: 3.5vw;
+    float: right;
+    margin-top: -5%;
+    margin-right: 5%;
+    margin-left: 0%;
+  }
+  header a{
+    font-size: 4vw;
+  }
+  .area1{
+    width: 95%;
+    font-size: 2vw;
+    margin-top: 40%;
+  }
+  #description{
+    font-size: 2vw;
+  }
+  .contenedor{
+    width: 45%;
+    height: 40vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+  .txtC{
+    font-size: 3vw;
+    margin: 2%;
+  }
+  .mv{
+  margin-left: 5%;
+  }
+  #mapa{
+    width:35vw;
+    height:35vw;
+  }
+  #log2{
+    width: 40%;
+    float: none;
+    margin-top: 20%;
+  }
+  .fot1{
+    display: inline-block;
+  }
+  footer{
+    display: list-item;
+  }
+  #video1{
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px 3px black;
+  }
+  .txtnxex{
+    margin-left: 8%;
+    font-size: 1.2vw;
+  }
+}
+
+@media (max-width:600px){
+header{
+ height: 24vw;
+}
+#btn-menu:checked ~ .menu{
+  margin: 0%;
+  margin-top: 5.5%;
+}
+header a {
+ font-size: 4vw;
+}
+.menu{
+  margin-top: 5%;
+}
+header p {
+ font-size: 6vw;
+ margin-top: -6%;
+}
+#img-menu{
+  width: 6vw;
+}
+header label{
+  margin-top: 7%;
+  margin-left: 2%;
+}
+  .area1{
+    width: 95%;
+    font-size: 2vw;
+    margin-top: 60%;
+  }
+  #description{
+    font-size: 2vw;
+  }
+  .contenedor{
+    width: 85%;
+    height: auto;
+  }
+  h2{
+    font-size: 4vw;
+  }
+  .txtC{
+    font-size: 3vw;
+    margin: 2%;
+  }
+  #mapa{
+    width:50vw;
+    height:50vw;
+  }
+  #log2{
+    width: 70%;
+    float: none;
+    margin-top: 20%;
+  }
+  .fot1{
+    display: inline-block;
+  }
+  #video1{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px 3px black;
+  }
+  .menur{
+    display: block !important;
+  }
+  .pizzarra{
+    background-image: url("pizarra.png");
+    background-repeat: repeat;
+    width: 100%;
+    margin-bottom: 35%;
+    height: auto;
+  }
+  .note1{
+    background-size: 100%;
+width:75%;
+height: 80vw;
+margin-top: 25%;
+  }
+  .note2{
+    background-size: 100%;
+width:75%;
+height: 80vw;
+margin-top: 25%;
+  }
+  .note3{
+    background-size: 100%;
+width:75%;
+height: 80vw;
+margin-top: 25%;
+  }
+  .note4{
+    background-size: 100%;
+width:75%;
+height: 80vw;
+margin-top: 25%;
+  }
+  .note5{
+    background-size: 100%;
+width:75%;
+height: 80vw;
+margin-top: 25%;
+  }
+  .note6{
+  background-size: 100%;
+  width:75%;
+  height: 80vw;
+  margin-top: 25%;
+  }
+  .txtnotes{
+  font-size: 4.8vw;
+  margin-left: 15%;
+   margin-top: 7%;
+  }
+  .contacto{
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    margin:0%;
+    border-radius: 0px;
+  }
+  .txtnxex{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 4vw;
+  }
+  #btncont{
+    width: 40%;
+    font-size: 5vw;
+  }
+  label{
+    font-size: 5vw;
+    text-align: left;
+  }
+  h3{
+    font-size: 5.2vw;
+  }
+  .txtcont{
+    text-align: left;
+    font-size: 3vw;
+  }
+  #description{
+    font-size: 4vw;
+  }
+  .slider{
+  height: 50vw;
+  }
+  .services{
+    height: 50vw;
+  }
+  h4{
+    font-size: 7vw;
+  }
+  ul{
+    display: none;
+  }
+  .menur{
+  }
+  #btnmen{
+    width: 5%;
+    height: 5vw;
+    float: right;
+    background-image: url("menu.png");
+    background-size: 100%;
+    border: none;
+    margin-top: .5%;
+    margin-right: 2%;
+  }
+}
